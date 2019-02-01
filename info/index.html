@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Smart</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<section id="feedback">
+		<div class="container">
+			<div class="col-lg-12 ">
+				<div class="feedback-slider">
+					<div class="feedback-slider-item text-center">
+						<div id="111" class="feedback-box">
+							<img src="img/slider-img-1.png" alt="">
+						</div>
+					</div>
+
+					<div class="feedback-slider-item text-center">
+						<div id="111" class="feedback-box">
+							<img src="img/slider-img-1.png" alt="">
+						</div>	
+					</div>
+
+					<div class="feedback-slider-item text-center wow pulse">
+						<div id="111" class="feedback-box">
+							<img src="img/slider-img-1.png" alt="">
+						</div>	
+					</div>
+
+					<div class="feedback-slider-item text-center wow pulse">
+						<div id="111" class="feedback-box">
+							<img src="img/slider-img-1.png" alt="">
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<!--script-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		 $('.feedback-slider').slick({
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: true,
+			prevArrow: '<i class="fa button arrows-left fa-chevron-left"></i>',
+			nextArrow: '<i class="fa button arrows-right fa-chevron-right"></i>',
+			dots: false,
+		  });
+		});
+	</script>
+</body>
+</html>
